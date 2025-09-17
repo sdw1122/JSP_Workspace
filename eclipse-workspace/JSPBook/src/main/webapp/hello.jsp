@@ -4,7 +4,11 @@
 
 </head>
 <body>
-<h1>Hello JSP</h1>
-Hello Java Server Pages. github testing testing2
+<%! int count = 0; %>
+
+Page Count is: 
+<% out.println(count);
+out.println(++count);%>
+
 </body>
 </html>
